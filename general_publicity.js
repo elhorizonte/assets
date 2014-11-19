@@ -11,10 +11,10 @@ function muestra_lateral_izquierdo(idZone){
 		_html += OA_output[idZone];
 		_html += '	</div>';
 		_html += '</div>';
-		$().ready(function(){
+
 			$("#bannerlateralfixed_eu_izq").remove();
 			$(".footer").before(_html);
-		})
+
 	}
 }
 
@@ -28,9 +28,9 @@ function muestra_lateral_derecho(idZone){
 		_html += OA_output[idZone];
 		_html += '	</div>';
 		_html += '</div>';
-		$().ready(function(){
+
 			$("#bannerlateralfixed_eu_der").remove();		
 			$(".footer").before(_html);
-		});
+
 	}
 }
